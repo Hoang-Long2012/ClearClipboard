@@ -1,4 +1,5 @@
 from logHandler import log
+from scriptHandler import script
 import globalPluginHandler
 import addonHandler
 import ui
@@ -6,8 +7,9 @@ import ctypes
 addonHandler.initTranslation()
 User32 = ctypes.windll.user32
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
+	scriptCategory = _("Clear clipboard")
+	@script(description=_("Clear your clipboard content."), category=scriptCategory)
 	def script_clearClipboard(self, gesture):
-		_("""Clear your clipboard content.""")
 		try:
 			User32.OpenClipboard(0)
 			User32.EmptyClipboard()
