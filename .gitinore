@@ -1,1 +1,3 @@
 __pycache__
+/addon/doc/*.md
+/addon/locale/*.po
