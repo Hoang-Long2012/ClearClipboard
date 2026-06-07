@@ -16,11 +16,11 @@ def _(arg):
 # Add-on information variables
 addon_info = {
 	# add-on Name/identifier, internal for NVDA
-	"addon_name": "ClearClipboard",
+	"addon_name": "Clear Clipboard",
 	# Add-on summary, usually the user visible name of the addon.
 	# Translators: Summary for this add-on
 	# to be shown on installation and add-on information found in Add-ons Manager.
-	"addon_summary": _("ClearClipboard"),
+	"addon_summary": _("Clear Clipboard"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("""Clear your clipboard content."""),
@@ -45,7 +45,7 @@ addon_info = {
 	# Add-on license such as GPL 2
 	"addon_license": "GPL 2",
 	# URL for the license document the ad-on is licensed under
-	"addon_licenseURL": None,
+	"addon_licenseURL": "https://github.com/Hoang-Long2012/ClearClipboard?tab=GPL-2.0-1-ov-file#readme",
 }
 
 # Define the python files that are the sources of your add-on.
