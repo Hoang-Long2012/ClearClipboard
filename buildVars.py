@@ -25,7 +25,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("""Clear your clipboard content."""),
 	# version
-	"addon_version": "1.0",
+	"addon_version": "1.1",
 	# Author(s)
 	"addon_author": "Hoàng Long",
 	# URL for the add-on documentation support
